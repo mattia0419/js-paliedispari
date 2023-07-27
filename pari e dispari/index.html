@@ -8,6 +8,21 @@
     <title>Document</title>
 </head>
 <body>
+    <div class="container">
+        <div class="input-group m-3 w-25">
+            <input id="user-number" type="number" class="form-control" aria-label="Amount (to the nearest dollar)" placeholder="Inserire un numero da 1 a 5" min="1" max="5">
+        </div>
+        <button id="even-button" type="button" class="btn btn-success m-3">Pari</button>
+        <button id="shots-button" type="button" class="btn btn-warning">Dispari</button>
+        <div class="m-3">
+            <span id="generated-num" class="badge text-bg-light">0</span>        
+        </div>
+        <div class="m-3">
+            <span id="win-lose" class="badge text-bg-primary"></span>
+        </div>
+        
+    </div>
+    
     <script type="text/javascript" src="./main.js"></script>
 </body>
 </html>
